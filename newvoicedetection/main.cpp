@@ -41,8 +41,8 @@ float* GetDataForDetectionFromRecord(int& sampleCount, int& sampleRate);
 //进行旋律化
 void DoMelody( float* buffer, const vector<SpeechSegment>& segments, int hop );
 
-//test2
-int main()//test1
+
+int main()
 {
 	//获取需要人声检查的声音数据
 	//需要sample个数、采样率
